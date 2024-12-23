@@ -1,0 +1,72 @@
+/* Fundo com gradiente */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilização da caixa */
+  .container {
+    background: rgba(255, 255, 255, 0.9); /* Caixa com fundo semitransparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Estilo do título */
+  h1 {
+    color: #4CAF50;
+    font-family: fantasy;
+  }
+
+/* Estilo do parágrafo */
+  p {
+    color: #6a11cb;
+  }
+
+  .label{
+    color: #959393;
+  }
+  
+  /* Estilo do select e button */
+  select, button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estilo do botão */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo da resposta */
+  #horoscope {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+  }
+  
